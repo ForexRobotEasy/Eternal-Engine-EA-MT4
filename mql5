@@ -1,0 +1,111 @@
+mql5
+//+------------------------------------------------------------------+
+//|                                                      Eternal Engine EA MT4                                     |
+//|                                                   Developer: Forex Robot Easy Team                |
+//|                                                      Website: forexroboteasy.com                           |
+//|                                                                                                                      |
+//|                                                Terms of Reference for Writing Code                           |
+//|                                                                                                                      |
+//|   1. Develop an advanced intelligent algorithm for the Eternal Engine EA MT4 platform.                |
+//|   2. The algorithm should be able to identify and capture subtle shifts in the forex market with a high degree of accuracy. |
+//|   3. Conduct extensive long-term research to ensure the algorithm can identify trading opportunities even in complex market conditions. |
+//|   4. The algorithm should be able to adapt quickly to market fluctuations and operate automatically 24 hours a day, without any manual intervention. |
+//|   5. Implement multiple mechanisms in the EA's design to ensure capital protection and investment safety. |
+//|   6. Develop necessary trading functions to enable the algorithm to execute trades based on market conditions. |
+//|   7. Ensure the code is efficient, well-structured, and follows best coding practices. |
+//|   8. Optimize the code for performance to ensure fast and reliable execution of trades. |
+//|   9. Test the code thoroughly to ensure it functions as expected and meets the specified requirements. |
+//|  10. Document the code and provide clear instructions on how to use and configure the Eternal Engine EA MT4 platform. |
+//|  11. Deliver the code within the specified timeline and be available for any necessary bug fixes or updates. |
+//+------------------------------------------------------------------+
+
+// Include necessary libraries
+#include <Trade\Trade.mqh>
+
+//+------------------------------------------------------------------+
+//| Expert initialization function                                   |
+//+------------------------------------------------------------------+
+int OnInit()
+{
+    // Add code for initialization here
+    
+    return(INIT_SUCCEEDED);
+}
+
+//+------------------------------------------------------------------+
+//| Expert deinitialization function                                 |
+//+------------------------------------------------------------------+
+void OnDeinit(const int reason)
+{
+    // Add code for deinitialization here
+}
+
+//+------------------------------------------------------------------+
+//| Expert tick function                                             |
+//+------------------------------------------------------------------+
+void OnTick()
+{
+    // Add code for tick processing here
+}
+
+//+------------------------------------------------------------------+
+//| Expert start function                                            |
+//+------------------------------------------------------------------+
+void OnStart()
+{
+    // Add code for start processing here
+    
+    while(!IsStopped())
+    {
+        // Add code for trading logic here
+        
+        // Execute trades based on market conditions
+        
+        // Add code for capital protection and investment safety mechanisms
+        
+        // Adapt to market fluctuations
+        
+        // Sleep for a certain period before next iteration
+        Sleep(1000); // 1 second delay
+    }
+}
+
+//+------------------------------------------------------------------+
+//| Expert custom function                                           |
+//+------------------------------------------------------------------+
+void CustomFunction()
+{
+    // Add custom functions here
+}
+
+//+------------------------------------------------------------------+
+//| Expert utility function                                          |
+//+------------------------------------------------------------------+
+void UtilityFunction()
+{
+    // Add utility functions here
+}
+
+//+------------------------------------------------------------------+
+//| Expert event function                                            |
+//+------------------------------------------------------------------+
+void OnEvent(const int id, void &data)
+{
+    // Add event handling code here
+}
+
+//+------------------------------------------------------------------+
+//| Expert error function                                            |
+//+------------------------------------------------------------------+
+void OnError(const int error_code, const int &id, const int &type, const string &message)
+{
+    // Add error handling code here
+}
+
+//+------------------------------------------------------------------+
+//| Expert timer function                                            |
+//+------------------------------------------------------------------+
+void OnTimer()
+{
+    // Add timer handling code here
+}
